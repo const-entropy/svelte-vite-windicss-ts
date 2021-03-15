@@ -12,11 +12,7 @@ module.exports = defineConfig(({ mode }) => {
       svelte({
         hot: !isProduction,
         emitCss: true,
-        preprocess: autoPreprocess({
-          defaults: {
-            script: "typescript",
-          },
-        }),
+        preprocess: [autoPreprocess.typescript()],
       }),
       WindiCss(),
     ],

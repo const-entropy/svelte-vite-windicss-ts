@@ -1,5 +1,5 @@
 <script lang="ts">
-  let helloWorld: string = "Hello World"
+  import HelloWorld from "./HelloWorld.svelte"
 </script>
 
 <style>
@@ -9,8 +9,6 @@
 
 </style>
 
-<template>
 <div id="main" class="min-h-screen bg-gray-500 text-white flex items-center justify-center ">
-  <div class="w-64 h-64 flex items-center justify-center ">{helloWorld}</div>
+  <HelloWorld greetings="Hello World"/>
 </div>
-</template>
