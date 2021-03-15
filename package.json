@@ -1,0 +1,13 @@
+{
+	"dependencies": {
+		"windicss": "^2.4.0"
+	},
+	"devDependencies": {
+		"@svitejs/vite-plugin-svelte": "*",
+		"svelte": "*",
+		"svelte-preprocess": "*",
+		"typescript": "*",
+		"vite": "*",
+		"vite-plugin-windicss": "*"
+	}
+}
